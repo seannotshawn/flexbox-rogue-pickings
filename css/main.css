@@ -136,8 +136,7 @@ nav {
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	
 }
 
 .section-two h3,
@@ -196,6 +195,9 @@ footer span {
 	}
 	.section-two {
 		flex-basis: 33%; 
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+			
 	}
 	.section-three {	
 		flex-basis: 33%; 
@@ -229,5 +231,9 @@ footer span {
 	header nav ul {
 		display: flex;
 		justify-content: space-between; 
+	}
+	.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 	}
 }
